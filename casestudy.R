@@ -1,4 +1,4 @@
-```r
+
 install.packages("tidyverse")
 install.packages("dplyr")
 install.packages("ggplot2")
@@ -56,4 +56,3 @@ activity_summary$sleep_hours <- factor(activity_summary$sleep_hours,levels = c("
 ggplot(data = activity_summary) + geom_bar(mapping=aes(x=sleep_hours, fill = sleep_hours))+ theme(axis.text.x = element_text(angle = 15))
 
 ggplot(data = activity_summary) + geom_point(mapping=aes(x=average_calories,y=average_steps,color=sleep_hours))
-```
