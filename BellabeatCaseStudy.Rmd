@@ -4,6 +4,17 @@ author: "Ong Hui"
 date: "4/28/2021"
 output: html_document
 ---
+## Ask
+1. Identify the business task. What is the problem you are trying to solve? 
+-	How can Bellabeat unlock new growth opportunities for the company, focusing on the Wellness watch
+How can your insights drive business decisions?
+-	If we are able to identify how users use their smart devices, we will be able to deep-dive into a specific function or device for improvements or innovations.
+2. Consider key stakeholders
+-	Urška Sršen, Bellabeat’s cofounder and Chief Creative Officer and Sando Mur, Mathematician and Bellabeat’s cofounder; key member of the Bellabeat executive team
+
+## Prepare
+This wellness watch combines the timeless look of a classic timepiece with smart technology to track user activity, sleep, and stress. The Time watch connects to the Bellabeat app to provide you with insights into your daily wellness. These data are downloaded to help understand their current habits and make healthy decisions. 
+-	dailyIntensities, dailySteps, heartrate, hourlyIntensities, minuteSleep, Sleepday, weight
 
 ```{r}
 install.packages("tidyverse")
